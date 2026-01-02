@@ -111,7 +111,7 @@ const Navbar = () => {
 
 
       <input className=' border-none  md:px-20 px-[2px]  border-white outline-none rounded-lg ' type="text" placeholder='Search... ' />
-      <p className='text-blue-800 md:text-[30px] text-[30px]'><IoMdMic size={20} /></p>
+      <p className='text-blue-800 md:text-[30px] text-[30px]'><IoMdMic size={15} /></p>
 
 
     </div>
