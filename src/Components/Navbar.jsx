@@ -107,7 +107,7 @@ const Navbar = () => {
 
 
 
-    <div className='flex items-center  px-2 py-2 mr-[4px] bg-white rounded-lg'>
+    <div className='flex items-center   mr-[4px] bg-white rounded-lg'>
 
 
       <input className=' border-none  md:px-20 px-[2px]  border-white outline-none rounded-lg ' type="text" placeholder='Search... ' />
