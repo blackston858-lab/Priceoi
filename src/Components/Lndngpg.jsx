@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-
+ 
 
 
 function LazyLoad() {
@@ -22,9 +22,9 @@ function LazyLoad() {
       </Slider>
 
       
-      {/* <div className="flex justify-center   " style={{ backgroundImage: "url('/sale-home-desk.png')" }} >
+      <div className="flex justify-center   " style={{ backgroundImage: "url('/sale-home-desk.png')" }} >
          
-      </div> */}
+      </div>
     </div>
   );
 }

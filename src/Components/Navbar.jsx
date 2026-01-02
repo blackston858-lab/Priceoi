@@ -17,7 +17,7 @@ const Navbar = () => {
 
      <div className='flex items-center p-4 md:gap-5 gap-1'>
 
-        <p onClick={()=>setopen(true)} className='text-white cursor-pointer     '><RiMenu2Line size={"30"}/></p>
+        <p onClick={()=>setopen(true)} className='text-white cursor-pointer     '><RiMenu2Line size={20}/></p>
         <img
   className="w-28 md:w-40 h-auto"
   src="https://static.priceoye.pk/images/logo.svg"
@@ -107,7 +107,7 @@ const Navbar = () => {
 
 
 
-    <div className='flex items-center  p-2 mr-[4px] bg-white rounded-lg'>
+    <div className='flex items-center  px-2 py-2 mr-[4px] bg-white rounded-lg'>
 
 
       <input className=' border-none  md:px-20 px-[2px]  border-white outline-none rounded-lg ' type="text" placeholder='Search... ' />
