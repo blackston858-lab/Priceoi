@@ -1,32 +1,52 @@
-import React from "react";
-import Slider from "react-slick";
+ import React from 'react'
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
  
-
-
-function LazyLoad() {
+ const Lndngpg = () => {
   const settings = {
     dots: true,
-    lazyLoad: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 2
+    slidesToScroll: 1
   };
-  return (
-    <div className="slider-container  mt-3">
-      <Slider {...settings}>
-         <div>
-            <img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-whn5j.webp" alt=""/>
-         </div>
-      </Slider>
-
-      
-      <div className="flex justify-center   " style={{ backgroundImage: "url('/sale-home-desk.png')" }} >
+   return (
+     <div className=''>
+      <div className="slider-container  overflow-hidden mt-3 ">
+       <Slider {...settings} >
          
-      </div>
-    </div>
-  );
-}
+        <div className='h-[350px]  w-full' >
+          <img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-sshyq.webp" alt=""/>
+        </div>
+        <div className='h-[350px] w-full' >
+          <img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-6i07y.webp" alt=""/>
+        </div>
+        <div className='h-[350px] w-full' >
+          <img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-gq7qs.webp" alt=""/>
+        </div>
+        <div className='h-[350px] w-full' >
+          <img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-thnsh.jpg" alt=""/>
+        </div>
+        <div className='h-[350px] w-full' >
+          <img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-1o1v2.jpg" alt=""/>
+        </div>
+        <div className='h-[350px] w-full' ><img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-jdzq6.webp" alt=""/></div>
+        <div className='h-[350px] w-full' ><img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-i9ua7.jpg" alt=""/></div>
+        <div className='h-[350px] w-full' >
+          <img src="https://images.priceoye.pk/banners/pakistan-priceoye-slider-ackxj.webp" alt=""/>
+        </div>
+       </Slider>
+       </div>
 
-export default LazyLoad
+        
+
+
+
+     </div>
+   )
+ }
+ 
+ export default Lndngpg
+ 
